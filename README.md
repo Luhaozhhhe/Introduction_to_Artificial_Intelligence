@@ -1,1 +1,2 @@
-# Introduction_to_Artificial_Intelligence
+# NKU-COSC0015-人工智能导论
+提供实验报告与代码，本学期共有六个实验，难度较大，有几个实验根本不知道怎么写
