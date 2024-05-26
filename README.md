@@ -109,3 +109,45 @@
 **1.4 注意事项**
 + Python 与 Python Package 的使用方式，可在右侧 `API文档` 中查阅。
 + 当右上角的『Python 3』长时间指示为运行中的时候，造成代码无法执行时，可以重新启动 Kernel 解决（左上角『Kernel』-『Restart Kernel』）。
+
+## Lab6 机器人自动走迷宫
+**1.1 实验背景**
+
+在本实验中，要求分别使用基础搜索算法和$Deep ~QLearning$算法，完成机器人自动走迷宫。
+
+![img](https://imgbed.momodel.cn/20201105105220.png)
+
+如上图所示，左上角的红色椭圆既是起点也是机器人的初始位置，右下角的绿色方块是出口。
+游戏规则为:从起点开始，通过错综复杂的迷宫，到达目标点(出口)。
+
+在任一位置可执行动作包括：向上走 `'u'`、向右走 `'r'`、向下走 `'d'`、向左走 `'l'`。
+
+- 执行不同的动作后，根据不同的情况会获得不同的奖励，具体而言，有以下几种情况。
+  - 撞墙
+  - 走到出口
+  - 其余情况
+- 你需要实现基于基础搜索算法和$Deep ~QLearning$算法的机器人，使机器人自动走到迷宫的出口。
+
+**1.2 实验要求**
+
+- 使用$Python$语言。
+- 使用基础搜索算法完成机器人走迷宫。
+- 使用$Deep ~QLearning$算法完成机器人走迷宫。
+- 算法部分需要自己实现，不能使用现成的包、工具或者接口。
+
+**1.3 实验环境**
+
+可以使用$Python$实现基础算法的实现， 使用$Keras、PyTorch$等框架实现$Deep~ QLearning$算法。
+
+**1.4 注意事项**
+
+- $Python$与$Python ~Package$的使用方式，可在右侧 $API$文档中查阅。
+- 当右上角的『$Python~ 3$』长时间指示为运行中的时候，造成代码无法执行时，可以重新启动$Kernel$解决（左上角『$Kernel$』-『$Restart~ Kernel$』）。
+
+**1.5 参考资料**
+
+- 强化学习入门$MDP$：https://zhuanlan.zhihu.com/p/25498081
+- $QLearning$简单例子（英文）：http://mnemstudio.org/path-finding-q-learning-tutorial.htm
+- $QLearning$简单解释（知乎）：https://www.zhihu.com/question/26408259
+- $DeepQLearning$论文：[https://files.momodel.cn/Playing%20Atari%20with%20Deep%20Reinforcement%20Learning.pdf](https://files.momodel.cn/Playing Atari with Deep Reinforcement Learning.pdf)
+
